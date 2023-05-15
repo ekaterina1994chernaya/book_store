@@ -1,0 +1,175 @@
+body{
+    margin-bottom: 48px;
+    margin-left: 155px;
+    margin-right: 166px;
+    margin-top: 0;
+}
+
+.body_content{
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    width: 1440px;
+    height: 116px;
+    padding-top: 55px;
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    z-index: 50;
+}
+
+.menu{
+    display: flex;
+    margin-right: 250px;
+    margin-top: -15px;
+}
+
+.logo{
+    margin-right: 250px;
+}
+
+.menu_content{
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #5C6A79;
+    text-decoration:none;
+}
+.menu_content:hover{
+    color: #1C2A39;
+    font-weight: 900;
+}
+
+.menu_content:active{
+    color: #1C2A39;
+    font-weight: 900;
+}
+
+.info_element{
+    margin-right: 40px; 
+}
+
+.slider_dot_wrapper {
+    display: inline-flex;
+    bottom: 35%;
+    flex-flow: row nowrap;
+    height: 30px;
+    margin-left: 500px;
+  }
+  
+  
+  /* Точка */
+  
+  .slider_dot_wrapper .slider_dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #EFEEF6;
+    margin: 5px;
+  }
+  
+ .slider_dot_wrapper .slider_dot:hover {
+    border: 2px solid #9E98DC;
+    background: #9E98DC;
+  }
+
+  .banners{
+    display: flex;
+    width: 1120px;
+    height: 702px;
+    margin-top: 100px;
+    margin-left: 105px;
+    flex-direction: column;
+  }
+
+  .banner{
+    height: 700px;
+  }
+
+  .list{
+    position: absolute;
+    width: 416px;
+    height: 710px;
+    left: 0px;
+    top: 890px;
+    background: #EFEEF6;
+  }
+
+  .list_elements{
+    margin-top: 45px;
+    margin-left: 100px;
+  }
+
+  .list_element{
+    width: 151px;
+    height: 25px;
+    left: 160px;
+    top: 1148px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 8px;
+    text-transform: capitalize;
+    color: #5C6A79;
+    margin-bottom: 12px;
+    list-style-type: none;
+  }
+
+  .list_element:hover{
+    color: #1C2A39;
+    list-style-type: disc;
+  }
+
+  .pink-carta{
+    position: absolute;
+    width: 137px;
+    height: 273px;
+    right: 0;
+    top: 475px;
+    background: #FF8FE6;
+    border-top: 140px;
+  }
+
+  .text-carta{
+    width: 65px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #1C2A39;
+    margin-top: 140px;
+    margin-left: 20px;
+  }
+
+  .arrow{
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+
+  .purple-carta{
+    position: absolute;
+    width: 149px;
+    height: 204px;
+    left: 1217px;
+    top: 195px;
+    background: #9E98DC;
+  }
+
+  .text-carta-purple{
+    width: 109px;
+    height: 66px;
+    left: 1237px;
+    top: 297px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #1C2A39;
+    margin-top: 70px;
+    margin-left: 20px;
+  }
