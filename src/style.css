@@ -60,23 +60,31 @@ body{
     margin-left: 500px;
   }
   
-  
   /* Точка */
   
-  .slider_dot_wrapper .slider_dot {
+  .dot {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     border: 2px solid #EFEEF6;
     margin: 5px;
+    cursor: pointer;
+    display: inline-block;
   }
   
- .slider_dot_wrapper .slider_dot:hover {
+ .active .dot:hover {
     border: 2px solid #9E98DC;
     background: #9E98DC;
   }
 
-  .banners{
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+  .slideshow-container{
     display: flex;
     width: 1120px;
     height: 702px;
@@ -85,7 +93,7 @@ body{
     flex-direction: column;
   }
 
-  .banner{
+  .slide{
     height: 700px;
   }
 
